@@ -1,0 +1,47 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+body{
+    background-color:hsl(30, 38%, 92%);
+}
+
+h1{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500, 700;
+}
+h2{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+}
+
+p{
+    font-family: 'Fraunces';
+    font-size: 14px;
+}
+
+span{
+    font-family: 'Montserrat';
+}
+
+.texto{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#preço-riscado{
+    text-decoration: line-through;
+}
+
+#carrinho{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+}
+
+#preço{ 
+    color: hsl(158, 36%, 37%);
+    font-weight: bold;
+}
